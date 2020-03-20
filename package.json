@@ -1,6 +1,6 @@
 {
   "name": "luck-lottery",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "author": "caijinhuang <572061881@qq.com>",
   "main": "lib/luck-lottery.umd.min.js",
@@ -13,7 +13,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "css-loader": "^3.4.2",
-    "luck-lottery": "^0.1.1",
+    "luck-lottery": "^0.1.2",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3",
