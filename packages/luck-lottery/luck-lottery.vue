@@ -102,7 +102,7 @@ export default {
       rotate(index) {
         const turnsTime = this.turnsTime;
         // 总圈数
-        const rotateAngle = this.startRotateDegree + 1 * 360
+        const rotateAngle = this.startRotateDegree + this.turnsNumber * 360
         // 到指定奖品旋转的角度
         + 360 - (180 / this.prizeList.length + 360 / this.prizeList.length * index)
         // 回归初始位置
