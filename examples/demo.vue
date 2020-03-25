@@ -15,7 +15,7 @@
       :styleOpt="styleOpt"
       @endTurns="endTurns"
     >
-      <template slot="item" slot-scope="scope">
+      <template v-slot:item="scope">
         <div class="drawTable-name">{{ scope.item.prizeName }}</div>
         <div class="drawTable-img">
           <img :src="scope.item.prizeImg">
