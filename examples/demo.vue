@@ -12,7 +12,7 @@
       :turnsNumber="turnsNumber"
       :turnsTime="turnsTime"
       :prizeIndex="prizeIndex"
-      :styleOpt="styleOpt"
+      :styleOpt="styleOpt" 
       @endTurns="endTurns"
     >
       <template v-slot:item="scope">
